@@ -9,7 +9,9 @@ module Geokit
       end
 
       def self.submit_url(ip)
-        "http://freegeoip.net/xml/#{ip}"
+        # "http://freegeoip.net/xml/#{ip}"
+        # Replace with Morse server
+        "http://109.123.120.193/xml/#{ip}"
       end
 
       XML_MAPPINGS = {
